@@ -1,0 +1,2 @@
+This script gets the installed programs list. Useful before the system reintalls.
+Get-ItemProperty HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\* | Select-Object DisplayName, DisplayVersion, Publisher, InstallDate | Format-Table –AutoSize > .\InstalledPrograms-PS.txt

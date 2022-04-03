@@ -1,0 +1,1 @@
+This scripts makes a self signed cerificate, and you can seign a PowerShell script with it. With this, you dont need to disable run of the uncertificated scripts.
