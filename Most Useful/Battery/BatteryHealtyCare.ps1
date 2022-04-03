@@ -9,7 +9,7 @@ while($true)
     Write-Host($Perc);
     if ($Perc -gt $maxlevel -OR $Perc -lt $minlevel) 
     {
-        $msg = [System.Windows.MessageBox]::Show('The battera reached the '+$Perc+'%.','Do you want to display another message?','YesNo','Information');
+        $msg = [System.Windows.MessageBox]::Show('The battery reached the '+$Perc+'%.','Do you want to display another message?','YesNo','Information');
         if ($msg -eq 'Yes') 
         {
             Start-Sleep(3600);        
