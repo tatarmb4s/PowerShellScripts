@@ -7,7 +7,10 @@
 - Akkumulátor karbantartó scrpteket, amelyeket a notebookom akkumulátora élettartamának gondozására 
 - Tanusítvány generáló scriptet, amely létrehoz egy önaláírt tanusítványt és alá ír vele egy másik scriptet, és így nem kell backdoorokat kinyitni a renszerben
 
-A scriptekben előfordulhatnak kisebb hib'k, ugzanis nem frissek, egy régebi rendszeremhez írtam őket.
+A személyes kedvencem, az az automata afk script, ami elindítja a játékot, megvárja hogy betöltsön, és el kezd előre hátra menni.
+Elérésu utja: `Most Useful\AutoAFKGameFarm.ps1`
+
+A scriptekben előfordulhatnak kisebb hibák, ugzanis nem frissek, egy régebi rendszeremhez írtam őket.
 
 **Nem vállalok felelőséget semmilyen kárért, amely ezeknek a scripteknek a használatából származik. Mielőtt lefutattjátok őket nézzétek át. Csak tanulási célokra osztom meg. Tilos illegális cselekedetekre használni a scripteket.**
 
@@ -17,6 +20,9 @@ A scriptekben előfordulhatnak kisebb hib'k, ugzanis nem frissek, egy régebi re
 - A script that automatically logs in with the specified IDs and sets up a script to run after logon.
 - Battery maintenance scrpt to take care of my notebook's battery life
 - Certificate generation script that creates a self-signed certificate and signs another script with it, so you don't have to open backdoors in the system
+
+My favorite is the automatic afk script that starts the game, waits for it to load, and starts going back and forth.
+Its the `Most Useful\AutoAFKGameFarm.ps1`
 
 There may be minor bugs in the scripts, they are not fresh, I wrote them for an older system.
 
