@@ -6,7 +6,7 @@ $udpin = $true;
 $tcpout = $true;
 $udpout = $true;
 
-if ($displayName -eq $true) 
+if ($everithing -eq $true) 
 {
 
     New-NetFirewallRule -DisplayName $displayName"TCPIn" -Profile 'Public' -Direction Inbound -Action Allow -Protocol TCP -LocalPort $portvalue 
