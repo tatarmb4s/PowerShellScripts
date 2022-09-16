@@ -2,6 +2,7 @@
  
 ## Mi találhattok itt?
 - Automatikus billentyű leütő scripteket, automatizáláshoz
+- Időközönként automatikusan git commit-oló és git push-oló scriptet.
 - Adatgyűjtő scripteket, logoláshoz
 - Egy scriptet, amely automatikusan bejelentkezik a megadott azonosítókkal, és beállítja egy script bejelentkezés utáni futását.
 - Akkumulátor karbantartó scrpteket, amelyeket a notebookom akkumulátora élettartamának gondozására 
@@ -16,6 +17,7 @@ A scriptekben előfordulhatnak kisebb hibák, ugzanis nem frissek, egy régebi r
 
 ## What can you find here?
 - Automatic keystroke scripts for automation
+- Automatic git commit and git push script, what runs time by time.
 - Data collection scripts for logging
 - A script that automatically logs in with the specified IDs and sets up a script to run after logon.
 - Battery maintenance scrpt to take care of my notebook's battery life
