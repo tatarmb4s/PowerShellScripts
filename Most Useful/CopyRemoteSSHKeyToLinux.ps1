@@ -1,1 +1,1 @@
-git config --global --add safe.directory D:/_Developments/PowerShell/PowerShellScripts
+cat ~/.ssh/id_rsa.pub | ssh <user>@<host> "mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys"
