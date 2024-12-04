@@ -1,0 +1,1 @@
+git config --global --add safe.directory D:/_Developments/PowerShell/PowerShellScripts
