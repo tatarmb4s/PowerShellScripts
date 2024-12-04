@@ -1,5 +1,9 @@
+# This script checks and cahges the windows rdp service port value
+
+# Check part
 ﻿Get-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "PortNumber"
 
+# Change part
 $portvalue = 4490
 
 Set-ItemProperty -Path 'HKLM:\SYSTEM\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -name "PortNumber" -Value $portvalue 

