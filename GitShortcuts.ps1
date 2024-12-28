@@ -52,6 +52,7 @@ function gtprbp {
         git pull --rebase
     } else {
         # Stage and commit with the provided title and optional description
+        git pull --rebase
         gtps -Title $Title -Desc $Desc
     }
 }
