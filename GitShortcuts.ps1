@@ -6,6 +6,7 @@ function gtcm {
     )
 
     # Stage all changes
+    Write-Host "Staging all changes..."
     git add .
 
     # Create the commit message
@@ -15,6 +16,7 @@ function gtcm {
     }
 
     # Run the commit command
+    Write-Host "Committing changes with message: $commitMessage"
     Invoke-Expression "git commit -s $commitMessage"
 }
 
@@ -27,16 +29,20 @@ function gtps {
 
     if (-not $Title) {
         # If no parameters are provided, push directly
+        Write-Host "Pushing changes..."
         git push
     } else {
         # Stage and commit with the provided title and optional description
+        Write-Host "Committing and pushing changes..."
         gtcm -Title $Title -Desc $Desc
+        Write-Host "Pushing changes..."
         git push
     }
 }
 
 # Define the gps function
 function gtprb {
+    Write-Host "Pulling changes with rebase..."
     git pull --rebase
 }
 
@@ -49,10 +55,13 @@ function gtprbp {
 
     if (-not $Title) {
         # If no parameters are provided, push directly
+        Write-Host "Pulling changes with rebase..."
         git pull --rebase
     } else {
         # Stage and commit with the provided title and optional description
+        Write-Host "Pulling changes with rebase..."
         git pull --rebase
+        Write-Host "Committing and pushing changes after rebase..."
         gtps -Title $Title -Desc $Desc
     }
 }
