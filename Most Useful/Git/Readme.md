@@ -5,7 +5,7 @@ This script provides a collection of PowerShell functions to streamline Git oper
 - **`gtcm`**: Git Commit with a title and optional description.
 - **`gtps`**: Git Push. Stages changes, optionally commits with a title and description, and pushes them to the remote repository.
 - **`gtpr`**: Git Pull Rebase. Rebases local changes on top of the latest remote changes.
-- **`gtprps`**: Git Pull Rebase, Commit, and Push. Rebases local changes, then optionally commits and pushes changes with a title and description.
+- **`gtprps`**: Git Pull Rebase, Commit, and Push. Optionally commits with a title and description then Rebases local changes, and pushes changes.
 
 Each function includes help documentation accessible via `Get-Help`.
 
