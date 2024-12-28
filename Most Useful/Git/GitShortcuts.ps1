@@ -128,9 +128,11 @@ function gtprps {
         Write-Host "Pulling changes with rebase..."
         git pull --rebase
     } else {
+        gtcm -Title $Title -Desc $Desc
+
         Write-Host "Pulling changes with rebase..."
         git pull --rebase
-        Write-Host "Committing and pushing changes after rebase..."
-        gtps -Title $Title -Desc $Desc
+
+        gtps
     }
 }
