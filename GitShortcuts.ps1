@@ -59,9 +59,12 @@ function gtprbp {
         git pull --rebase
     } else {
         # Stage and commit with the provided title and optional description
+
+        gtcm -Title $Title -Desc $Desc
+
         Write-Host "Pulling changes with rebase..."
-        git pull --rebase
-        Write-Host "Committing and pushing changes after rebase..."
-        gtps -Title $Title -Desc $Desc
+        git pull --rebase        
+
+        gtps
     }
 }
