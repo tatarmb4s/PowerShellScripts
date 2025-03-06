@@ -45,3 +45,11 @@ If you want the commands to be available in every PowerShell session:
    ```
 
 Now the `gtcm`, `gtps`, `gtpr`, `gtprps` commands will be available every time you open PowerShell. If you forget what they do, use the `Get-Help <cmdName>` command to access their descriptions and examples.
+
+# Bash:
+
+1. Create the `~/bin/git-helper.sh` file.
+2. Copy the content.
+3. Edit the `~/.bashrc` file.
+4. Enter this ot the bottom: `source ~/bin/git-helper.sh`
+5. Reload the `source /home/user/.bashrc`
