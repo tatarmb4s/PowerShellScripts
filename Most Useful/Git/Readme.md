@@ -52,4 +52,4 @@ Now the `gtcm`, `gtps`, `gtpr`, `gtprps` commands will be available every time y
 2. Copy the content.
 3. Edit the `~/.bashrc` file.
 4. Enter this ot the bottom: `source ~/bin/git-helper.sh`
-5. Reload the `source /home/user/.bashrc`
+5. Reload the `source ~/.bashrc`
