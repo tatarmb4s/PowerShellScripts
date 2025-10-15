@@ -7,6 +7,7 @@
 - Egy scriptet, amely automatikusan bejelentkezik a megadott azonosítókkal, és beállítja egy script bejelentkezés utáni futását.
 - Akkumulátor karbantartó scrpteket, amelyeket a notebookom akkumulátora élettartamának gondozására 
 - Tanusítvány generáló scriptet, amely létrehoz egy önaláírt tanusítványt és alá ír vele egy másik scriptet, és így nem kell backdoorokat kinyitni a renszerben
+- SSH kulcssegítő scriptek (windows hello encrypt, ssh pub copy win->lin)
 
 A személyes kedvencem, az az automata afk script, ami elindítja a játékot, megvárja hogy betöltsön, és el kezd előre hátra menni.
 Elérésu utja: `Most Useful\AutoAFKGameFarm.ps1`
