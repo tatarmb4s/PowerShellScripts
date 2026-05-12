@@ -1,0 +1,22 @@
+$toolScript = "D:\HGST\_Developments\PowerShell\PowerShellScripts\Most Useful\TSFileToProRes\TSFileToProRes.ps1"
+
+$profileFolder = Split-Path -Parent $PROFILE
+
+if (!(Test-Path -LiteralPath $profileFolder)) {
+  New-Item -ItemType Directory -Force -Verbose -Path $profileFolder | Out-Null
+}
+
+if (!(Test-Path -LiteralPath $PROFILE)) {
+  New-Item -ItemType File -Force -Verbose -Path $PROFILE | Out-Null
+}
+
+$profileLine = ". '$toolScript'"
+
+if (!(Select-String -LiteralPath $PROFILE -Pattern ([regex]::Escape($profileLine)) -Quiet)) {
+  Add-Content -LiteralPath $PROFILE -Value "`n$profileLine" -Verbose
+}
+
+. $PROFILE
+
+Get-Command Convert-TSFolderToProResProxy
+Get-Command ts2prores
