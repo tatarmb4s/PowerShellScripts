@@ -1,0 +1,4 @@
+curl -c cookies.txt \
+  -X POST "http://YOUR_WINDOWS_IP:8080/api/login" \
+  -H "Content-Type: application/json" \
+  -d '{"username":"admin","password":"YOUR_PASS"}'

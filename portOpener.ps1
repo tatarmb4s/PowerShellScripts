@@ -1,5 +1,5 @@
-﻿$displayName = "GitEA3000Proxy";
-$portvalue = 3000;
+﻿$displayName = "18181 NexaAI local inference";
+$portvalue = 18181;
 $everithing = $false;
 $tcpin = $true;
 $udpin = $true;
